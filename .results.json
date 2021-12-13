@@ -1,0 +1,155 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-12-13T18:41:56.453Z",
+    "end": "2021-12-13T18:41:56.685Z",
+    "duration": 232
+  },
+  "tests": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "file": "/home/arosas/Development/code/phase-1/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "file": "/home/arosas/Development/code/phase-1/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\n\\n\\n\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\n\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/",
+        "showDiff": false,
+        "actual": "// Code your solution in this file!\nlet companyName = 'Scuber';\n\n\n\nlet mostProfitableNeighborhood = 'Chelsea';\n\nlet companyCeo = 'Susan Smith';",
+        "stack": "AssertionError: Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\n\\n\\n\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\n\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:13:21)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\n\\n\\n\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\n\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/",
+            "showDiff": false,
+            "actual": "// Code your solution in this file!\nlet companyName = 'Scuber';\n\n\n\nlet mostProfitableNeighborhood = 'Chelsea';\n\nlet companyCeo = 'Susan Smith';",
+            "multiple": "AssertionError: Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\n\\n\\n\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\n\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/",
+            "stack": "AssertionError: Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\n\\n\\n\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\n\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:13:21)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "file": "/home/arosas/Development/code/phase-1/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "file": "/home/arosas/Development/code/phase-1/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "file": "/home/arosas/Development/code/phase-1/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "file": "/home/arosas/Development/code/phase-1/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "file": "/home/arosas/Development/code/phase-1/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\n\\n\\n\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\n\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/",
+        "showDiff": false,
+        "actual": "// Code your solution in this file!\nlet companyName = 'Scuber';\n\n\n\nlet mostProfitableNeighborhood = 'Chelsea';\n\nlet companyCeo = 'Susan Smith';",
+        "stack": "AssertionError: Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\n\\n\\n\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\n\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:13:21)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\n\\n\\n\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\n\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/",
+            "showDiff": false,
+            "actual": "// Code your solution in this file!\nlet companyName = 'Scuber';\n\n\n\nlet mostProfitableNeighborhood = 'Chelsea';\n\nlet companyCeo = 'Susan Smith';",
+            "multiple": "AssertionError: Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\n\\n\\n\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\n\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/",
+            "stack": "AssertionError: Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\n\\n\\n\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\n\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:13:21)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "file": "/home/arosas/Development/code/phase-1/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "file": "/home/arosas/Development/code/phase-1/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "file": "/home/arosas/Development/code/phase-1/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "file": "/home/arosas/Development/code/phase-1/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "file": "/home/arosas/Development/code/phase-1/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}
